@@ -4,10 +4,10 @@
 #Depending on the user name prinbt the password
 import csv
 
-
+file_path= "Text Files/Lab Program 27/passwords.csv"
 
 def input_entries():
-    f = open("passwords.csv","w",newline = "")
+    f = open(file_path,"w",newline = "")
     writer = csv.writer(f)
     data = ["Username","Password"]
     writer.writerow(data)
@@ -30,14 +30,14 @@ def input_entries():
 
 
 def read_entries():
-    f = open("passwords.csv","r")
+    f = open(file_path,"r")
     reader = csv.reader(f)
     for row in reader:
         print(row)
     f.close()
 
 def search ():
-    f = open("passwords.csv","r")
+    f = open(file_path,"r")
     reader = csv.reader(f)
     username = input("Enter the username to be searched:")
 
@@ -50,8 +50,8 @@ def search ():
         print("Username is not found.")
     f.close()
     
-#input_entries()
-#read_entries()
+input_entries()
+read_entries()
 search()
 
    

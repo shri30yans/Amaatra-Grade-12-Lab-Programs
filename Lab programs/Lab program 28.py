@@ -1,9 +1,9 @@
 import csv
 
-
+file_path = "Text Files/Lab Program 28/products.csv"
 
 def input_entries():
-    f = open("test.csv","w",newline = "")
+    f = open(file_path,"w",newline = "")
     writer = csv.writer(f)
     data = ["Number","Name","Price"]
     writer.writerow(data)
@@ -27,14 +27,14 @@ def input_entries():
 
 
 def read_entries():
-    f = open("test.csv","r")
+    f = open(file_path,"r")
     reader = csv.reader(f)
     for row in reader:
         print(row)
     f.close()
 
 def search ():
-    f = open("test.csv","r")
+    f = open(file_path,"r")
     reader = csv.reader(f)
     number = int(input("Enter the item number to be searched:"))
 
@@ -50,8 +50,8 @@ def search ():
     check()
     f.close()
     
-#input_entries()
-#read_entries()
+input_entries()
+read_entries()
 search()
 
    

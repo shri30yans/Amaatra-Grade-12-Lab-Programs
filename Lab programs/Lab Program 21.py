@@ -3,7 +3,7 @@
 # Date of executiom: 27/7/21
 # Write a Program to count the occurence of a particular word
 
-f=open("abc.txt","r")
+f=open("Text Files/Lab Program 21/abc.txt","r")
 read=f.read()
 
 def func(read):
