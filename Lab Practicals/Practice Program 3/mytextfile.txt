@@ -1,0 +1,5 @@
+This sentence should be there in the new file.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Phasellus semper imperdiet finibus. Integer ut turpis ac justo lacinia ornare nec id ligula. 
+Vestibulum laoreet urna nec eros feugiat ultrices. Vivamus interdum laoreet risus in mattis. 
+Quisque efficitur, nulla in fringilla fringilla, metus nisl accumsan lacus, quis egestas lectus leo id massa.

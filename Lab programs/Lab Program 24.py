@@ -58,7 +58,7 @@ def count(authour):
 
 
 def main():
-    #add_entries()
+    add_entries()
     authour = input("Enter the Authour's name whose book count I need to find:")
     count(authour)
 main()

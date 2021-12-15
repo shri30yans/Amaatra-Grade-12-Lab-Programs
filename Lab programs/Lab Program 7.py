@@ -14,5 +14,5 @@ swap_list=list(eval(input("Enter the list:")))
 if (len(swap_list)%2) != 0:
     print("List doesn't have even number of elements.")
 else:
-    swap(list=swap_list)
+    swap(swap_list)
 

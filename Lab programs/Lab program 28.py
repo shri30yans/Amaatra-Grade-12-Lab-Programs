@@ -1,5 +1,5 @@
 import csv
-
+ 
 file_path = "Text Files/Lab Program 28/products.csv"
 
 def input_entries():

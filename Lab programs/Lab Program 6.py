@@ -16,6 +16,6 @@ def func():
 
 func()
 if (sum == n):
-    print("its a super Perfect number")
+    print("its a Perfect number")
 else:
-    print("its not a super number")
+    print("its not a perfect number")
